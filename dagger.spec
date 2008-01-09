@@ -1,5 +1,5 @@
 Summary:	Command-line utility for audio files
-Summary(pl.UTF-8):	Narzędzie linii poleceń dla plików audio
+Summary(pl.UTF-8):	Narzędzie linii poleceń dla plików dźwiękowych
 Name:		dagger
 Version:	0.3.1
 Release:	1
@@ -14,17 +14,17 @@ Requires:	vorbis-tools >= 1.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-dagger is a small command-line utility for unix/linux written in
+dagger is a small command-line utility for Unix/Linux written in
 Python which tags and renames audio-files. Currently supported formats
-are MP3 and OGG Vorbis. dagger's configuration file supports different
+are MP3 and Ogg Vorbis. dagger's configuration file supports different
 profiles with their own sets of options.
 
 %description -l pl.UTF-8
 dagger jest małym narzędziem linii poleceń napisanym w Pythonie dla
-środowiska unix/linux służacym do tagowania i zmieniania nazw
-plików audio. Aktualnie wspieranymi formatami są MP3 i OGG Vorbis.
-Plik konfiguracyjny daggera umożliwia ustawienie różnych profili z
-własnym zestawem opcji.
+środowiska Unix/Linux służącym do ustawiania znaczników i zmiany nazw
+plików dźwiękowych. Aktualnie obsługiwanymi formatami są MP3 i Ogg
+Vorbis. Plik konfiguracyjny daggera umożliwia ustawienie różnych
+profili z własnym zestawem opcji.
 
 %prep
 %setup -q
