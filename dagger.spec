@@ -1,12 +1,12 @@
 Summary:	Command-line utility for audio files
 Summary(pl.UTF-8):	Narzędzie linii poleceń dla plików dźwiękowych
 Name:		dagger
-Version:	0.3.1
+Version:	0.3.2
 Release:	1
 License:	GPL v2+
 Group:		Applications
 Source0:	http://freewarepoint.de/dagger/%{name}-%{version}.tar.gz
-# Source0-md5:	5dca96d12079c275dc97607012841557
+# Source0-md5:	c482a7bca5d7e1ffa2157358734956d3
 URL:		http://freewarepoint.de/dagger/
 Requires:	id3v2 >= 0.1.11
 Requires:	python-devel >= 1:2.3
